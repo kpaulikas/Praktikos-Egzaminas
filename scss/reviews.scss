@@ -1,0 +1,106 @@
+.reviews-container {
+	width: 100%;
+	min-height: 591px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background: $reviews-2;
+	padding: 67px 25px;
+	gap: 60px;
+
+	.title {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 22px;
+		margin: 25px 0px;
+
+		h1 {
+			font-size: 36px;
+			font-weight: 600;
+			line-height: 43px;
+			color: $reviews-1;
+			text-align: center;
+		}
+
+		img {
+			width: 64px;
+			fill: $reviews-6;
+		}
+	}
+
+	.reviewers {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-end;
+		gap: 119px;
+
+		.review {
+			display: flex;
+			flex-direction: column;
+
+			.comment {
+				max-width: 273px;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 22px;
+				color: $reviews-2;
+				background: $reviews-6;
+				border-radius: 8px;
+				padding: 20px;
+				margin-bottom: 20px;
+			}
+
+			.person {
+				display: flex;
+				flex-direction: row;
+				gap: 16px;
+				justify-content: flex-start;
+				align-items: center;
+
+				.avatar {
+					width: 70px;
+					height: 70px;
+					border-radius: 100px;
+					background: url("../assets/images/avatar.png");
+					background-size: cover;
+					background-position: center;
+					position: relative;
+				}
+
+				.avatar::after {
+					content: "";
+					position: absolute;
+					top: -24px;
+					left: 32%;
+					border: 15px solid transparent;
+					border-top-color: $reviews-6;
+				}
+
+				.name {
+					display: flex;
+					flex-direction: column;
+					gap: 4px;
+
+					h2 {
+						font-size: 20px;
+						font-weight: 400;
+						color: $reviews-3;
+						text-align: left;
+					}
+
+					p {
+						font-size: 14px;
+						font-weight: 400;
+						color: $reviews-4;
+						text-align: left;
+					}
+				}
+			}
+		}
+	}
+}

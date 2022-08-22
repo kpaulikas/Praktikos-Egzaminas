@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- !AOS css cdn -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<!-- ! Fontawesome css cdn -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- ! Custom css -->
+		<link rel="stylesheet" href="app/css/style.css" />
+		<title>Praktikos Egzaminas</title>
+	</head>
+	<body>
+		<!-- ! Top nav bar -->
+		<nav class="nav-top">
+			<div class="nav-container">
+				<a href="#">
+					<img src="app/assets/images/logo-sm.png" alt="Cheshire County Logo" />
+				</a>
+				
+				<div class="links">
+					<a href="#Features">Features</a>
+					<a href="#About">About</a>
+					<a href="#Pricing">Pricing</a>
+					<a href="#Reviews">Reviews</a>
+					<a href="#Contacts">Contact</a>
+				</div>
+
+				<i id="burger" class="fa-solid fa-bars"></i>
+			</div>
+		</nav>
+
+		<div class="below-nav">
+
+			<!-- ! Hero area -->
+			<section class="hero-area">
+				<article>
+					<img class="logo" src="app/assets/images/logo-sm.png" alt="Cheshire County Logo" />
+
+					<h1>Explained propriety of out perpetual to you</h1>
+
+					<img class="line" src="app/assets/images/hero-divider.png" alt="Divider 1" />
+
+					<p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety of out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is.</p>
+
+					<button>DOWNLOAD</button>
+				</article>
+
+				<div class="subscribtion">
+					<div class="top">
+						<h2>Try Your <span>FREE</span> Trial Today</h2>
+					</div>
+
+					<form id="mainForm" action="#">
+						<p>Your details</p>
+						<div class="text-input">
+							<input type="text" placeholder="First name" required />
+							<input type="text" placeholder="Last name" required />
+							<input type="tel" placeholder="Phone number" required />
+						</div>
+						<p>Type of subscription</p>
+
+						<div class="radio">
+							<input form="mainForm" id="monthly" type="radio" name="sub" value="monthly" required/>
+							<label for="monthly">Monthly</label>
+
+							<input form="mainForm" id="yearly" type="radio" name="sub" value="yearly" required/>
+							<label for="yearly">Yearly</label>
+						</div>
+					</form>
+					<div class="bottom"><input form="mainForm" type="submit" value="GET STARTED" /></div>
+				</div>
+			</section>
+
+			<!-- ! Social media -->
+			<section class="social-media">
+				<div class="text">
+					<h2>Social Media</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+				</div>
+				<div class="icons">
+					<img src="app/assets/icons/facebook.png" alt="Facebook icon" />
+					<img src="app/assets/icons/instagram.png" alt="Instagram icon" />
+					<img src="app/assets/icons/twitter.png" alt="Twitter icon" />
+					<img src="app/assets/icons/pinterest.png" alt="Pinterest icon" />
+					<img class="rss" src="app/assets/icons/rss.svg" alt="Rss icon" />
+				</div>
+			</section>
+
+			<!-- ! About area 1 -->
+			<section id="Features" class="about-1">
+				<div data-aos="fade-right" data-aos-duration="1000" class="squares">
+					<div class="square"><h3>REGISTER</h3></div>
+					<div class="square"><h3>APPLY</h3></div>
+					<div class="square"><h3>RECEIVE</h3></div>
+				</div>
+				<div data-aos="zoom-in" data-aos-duration="1000" class="text">
+					<h2>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br /><br />
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+					</p>
+				</div>
+				<div data-aos="fade-left" data-aos-duration="1000" class="images">
+					<img class="img-1" src="app/assets/images/green.png" alt="Green" />
+					<img class="img-2" src="app/assets/images/veggies.png" alt="Vegetables" />
+					<img class="img-3" src="app/assets/images/stairs.png" alt="Stairs" />
+				</div>
+			</section>
+
+			<!-- ! About area 2 -->
+			<section class="about-2">
+				<div data-aos="fade-right" data-aos-duration="1000" class="left-side">
+					<img src="app/assets/images/logo-lg.png" alt="Cheshire County Logo" />
+				</div>
+
+				<div data-aos="fade-left" data-aos-duration="1000" class="right-side">
+					<div class="upper-container">
+						<h2>Erat tempor tempus erat malesuada</h2>
+						<img src="app/assets/images/about-2-divider.png" alt="about-2-divider" />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+					</div>
+
+					<div class="bottom-container">
+						<div class="icons">
+							<div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg></i></div>
+							<div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32C114.6 32 .0272 125.1 .0272 240c0 47.63 19.91 91.25 52.91 126.2c-14.88 39.5-45.87 72.88-46.37 73.25c-6.625 7-8.375 17.25-4.625 26C5.818 474.2 14.38 480 24 480c61.5 0 109.1-25.75 139.1-46.25C191.1 442.8 223.3 448 256 448c141.4 0 255.1-93.13 255.1-208S397.4 32 256 32zM256.1 400c-26.75 0-53.12-4.125-78.38-12.12l-22.75-7.125l-19.5 13.75c-14.25 10.12-33.88 21.38-57.5 29c7.375-12.12 14.37-25.75 19.88-40.25l10.62-28l-20.62-21.87C69.82 314.1 48.07 282.2 48.07 240c0-88.25 93.25-160 208-160s208 71.75 208 160S370.8 400 256.1 400z"/></svg></div>
+						</div>ß
+
+						<div class="bottom-text">
+							<div class="bottom-1">
+								<h3>Title</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+							</div>
+							<div class="bottom-2">
+								<h3>Title</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ! About area 3 -->
+			<section id="About" class="about-3">
+
+				<div data-aos="zoom-in" data-aos-duration="1000" class="title">
+					<h1>WHY THIS IS AWESOME</h1>
+					<img src="app/assets/images/about-3-divider.svg" alt="about-3-divider">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+
+				<div class="features-container">
+
+					<div data-aos="fade-right" data-aos-duration="1000" class="features-content">
+						<div class="circle">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M223.7 130.8L149.1 7.77C147.1 2.949 141.9 0 136.3 0H16.03c-12.95 0-20.53 14.58-13.1 25.18l111.3 158.9C143.9 156.4 181.7 137.3 223.7 130.8zM256 160c-97.25 0-176 78.75-176 176S158.8 512 256 512s176-78.75 176-176S353.3 160 256 160zM348.5 317.3l-37.88 37l8.875 52.25c1.625 9.25-8.25 16.5-16.63 12l-46.88-24.62L209.1 418.5c-8.375 4.5-18.25-2.75-16.63-12l8.875-52.25l-37.88-37C156.6 310.6 160.5 299 169.9 297.6l52.38-7.625L245.7 242.5c2-4.25 6.125-6.375 10.25-6.375S264.2 238.3 266.2 242.5l23.5 47.5l52.38 7.625C351.6 299 355.4 310.6 348.5 317.3zM495.1 0H375.7c-5.621 0-10.83 2.949-13.72 7.77l-73.76 122.1c42 6.5 79.88 25.62 109.5 53.38l111.3-158.9C516.5 14.58 508.9 0 495.1 0z"/></svg>
+						</div>
+						<h2>Thoughtful Design</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod ibendum laoreet.</p>
+					</div>
+
+					<div data-aos="fade-up" data-aos-duration="1000" class="features-content">
+						<div class="circle">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M352.6 127.1c-28.12 0-54.13 4.5-77.13 12.88l12.38-123.1c1.125-10.5-8.125-18.88-18.5-17.63C189.6 10.12 127.1 77.62 127.1 159.4c0 28.12 4.5 54.13 12.88 77.13L17.75 224.1c-10.5-1.125-18.88 8.125-17.63 18.5c9.1 79.75 77.5 141.4 159.3 141.4c28.12 0 54.13-4.5 77.13-12.88l-12.38 123.1c-1.125 10.38 8.125 18.88 18.5 17.63c79.75-10 141.4-77.5 141.4-159.3c0-28.12-4.5-54.13-12.88-77.13l123.1 12.38c10.5 1.125 18.88-8.125 17.63-18.5C501.9 189.6 434.4 127.1 352.6 127.1zM255.1 287.1c-17.62 0-31.1-14.38-31.1-32s14.37-32 31.1-32s31.1 14.38 31.1 32S273.6 287.1 255.1 287.1z"/></svg>
+						</div>
+						<h2>Well Crafted</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Aenean euismod bibendum.</p>
+					</div>
+
+					<div data-aos="fade-left" data-aos-duration="1000" class="features-content">
+						<div class="circle">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M470.1 231.3s7.6 37.2 9.3 45H446c3.3-8.9 16-43.5 16-43.5-.2.3 3.3-9.1 5.3-14.9l2.8 13.4zM576 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48zM152.5 331.2L215.7 176h-42.5l-39.3 106-4.3-21.5-14-71.4c-2.3-9.9-9.4-12.7-18.2-13.1H32.7l-.7 3.1c15.8 4 29.9 9.8 42.2 17.1l35.8 135h42.5zm94.4.2L272.1 176h-40.2l-25.1 155.4h40.1zm139.9-50.8c.2-17.7-10.6-31.2-33.7-42.3-14.1-7.1-22.7-11.9-22.7-19.2.2-6.6 7.3-13.4 23.1-13.4 13.1-.3 22.7 2.8 29.9 5.9l3.6 1.7 5.5-33.6c-7.9-3.1-20.5-6.6-36-6.6-39.7 0-67.6 21.2-67.8 51.4-.3 22.3 20 34.7 35.2 42.2 15.5 7.6 20.8 12.6 20.8 19.3-.2 10.4-12.6 15.2-24.1 15.2-16 0-24.6-2.5-37.7-8.3l-5.3-2.5-5.6 34.9c9.4 4.3 26.8 8.1 44.8 8.3 42.2.1 69.7-20.8 70-53zM528 331.4L495.6 176h-31.1c-9.6 0-16.9 2.8-21 12.9l-59.7 142.5H426s6.9-19.2 8.4-23.3H486c1.2 5.5 4.8 23.3 4.8 23.3H528z"/></svg>
+						</div>
+						<h2>Easy to Customize</h2>
+						<p>Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- ! Pricing section -->
+			<section id="Pricing" class="pricing">
+				<div data-aos="fade-down" data-aos-duration="1000" class="title">
+					<h1>PRICING OPTIONS</h1>
+					<img src="app/assets/images/pricing-divider.svg" alt="about-3-divider">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+
+				<div class="pricing-container-main">
+					<div data-aos="fade-right" data-aos-duration="1000" class="pricing-container-left">
+						<div class="pricing-top">
+							<h2>Basic</h2>
+							<h1><span>$</span>0</h1>
+							<h3>Free for Life</h3>
+						</div>
+	
+						<div class="pricing-mid"></div>
+	
+						<div class="pricing-bottom">
+							<h2>1 GB OF SPACE</h2>
+							<h2>10 GB OF BANDWIDTH</h2>
+							<h2>3 WEBSITES</h2>
+							<h2>BASIC CUSTOMIZATION</h2>
+							<h2>WORDPRESS INTEGRATION</h2>
+							<h2>EMAIL SUPPORT</h2>
+						</div>
+					</div>
+	
+					<div data-aos="fade-up" data-aos-duration="1500"class="pricing-container-mid">
+						<div class="pricing-top">
+							<h2>Professional</h2>
+							<h1><span>$</span>19</h1>
+							<h3>Monthly Payment</h3>
+						</div>
+	
+						<div class="pricing-mid">
+							<h3>OUR MOST POPULAR</h3>
+						</div>
+	
+						<div class="pricing-bottom">
+							<h2>5 GB OF SPACE</h2>
+							<h2>50 GB OF BANDWIDTH</h2>
+							<h2>12 WEBSITES</h2>
+							<h2>ADVANCED CUSTOMIZATION</h2>
+							<h2>WORDPRESS INTEGRATION</h2>
+							<h2>EMAIL SUPPORT</h2>
+						</div>
+					</div>
+
+					<div data-aos="fade-left" data-aos-duration="1000" class="pricing-container-right">
+						<div class="pricing-top">
+							<h2>Enterprise</h2>
+							<h1><span>$</span>70</h1>
+							<h3>Monthly Payment</h3>
+						</div>
+	
+						<div class="pricing-mid"></div>
+	
+						<div class="pricing-bottom">
+							<h2>UNLIMITED SPACE</h2>
+							<h2>UNLIMITED BANDWIDTH</h2>
+							<h2>100 WEBSITES</h2>
+							<h2>ADVANCED CUSTOMIZATION</h2>
+							<h2>WORDPRESS INTEGRATION</h2>
+							<h2>24/7 CUSTOMER SUPPORT</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ! Reviews section -->
+			<section id="Reviews" class="reviews-container">
+				<div data-aos="fade-down" data-aos-duration="1000" class="title">
+					<h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
+					<img src="app/assets/images/pricing-divider.svg" alt="Reviews divider">
+				</div>
+
+				<div class="reviewers">
+
+					<div class="review">
+						<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+						<div class="person">
+							<div class="avatar"></div>
+							<div class="name">
+								<h2>Jeremy H.</h2>
+								<p>Manager</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="review">
+						<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+						<div class="person">
+							<div class="avatar"></div>
+							<div class="name">
+								<h2>John S.</h2>
+								<p>Freelancer</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="review">
+						<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+						<div class="person">
+							<div class="avatar"></div>
+							<div class="name">
+								<h2>Susan W.</h2>
+								<p>Photographer</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- ! Contacts section -->
+			<section id="Contacts" class="contacts-container">
+				<h1 data-aos="fade-left" data-aos-duration="500">CONTACT US</h1>
+				<p data-aos="fade-right" data-aos-duration="500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+				<div class="contact">
+					<form id="contacts" action="#">
+						<div class="text-input">
+							<input type="text" placeholder="First name" required />
+							<input type="text" placeholder="Last name" required />
+							<input type="tel" placeholder="Phone number" required />
+						</div>
+
+						<div class="radio">
+							<input form="contacts" id="personal" type="radio" name="cont" value="personal" required/>
+							<label for="personal">Personal</label>
+
+							<input form="contacts" id="company" type="radio" name="cont" value="company" required/>
+							<label for="company">Company</label>
+						</div>
+						<input class="button" form="contacts" type="submit" value="SEND" />
+					</form>
+				</div>
+
+			</section>
+
+			<!-- ! Footer section -->
+			<footer>
+				<div class="icons">
+					<img src="app/assets/icons/facebook.png" alt="Facebook icon" />
+					<img src="app/assets/icons/instagram.png" alt="Instagram icon" />
+					<img src="app/assets/icons/twitter.png" alt="Twitter icon" />
+					<img src="app/assets/icons/pinterest.png" alt="Pinterest icon" />
+					<img class="rss" src="app/assets/icons/rss.svg" alt="Rss icon" />
+				</div>
+				<p>© 2019 Cheshire County</p>
+			</footer>
+		</div>
+
+		<!-- ! AOS js cdn -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<!-- ! Custom js -->
+		<script src="js/script.js"></script>
+	</body>
+</html>

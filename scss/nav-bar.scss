@@ -1,0 +1,55 @@
+.nav-top {
+	position: fixed;
+	width: 100%;
+	height: 72px;
+	background-color: $bg-nav;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	z-index: 99;
+
+	.nav-container {
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		a img {
+			width: 119.37px;
+			height: 52.06px;
+			object-fit: contain;
+		}
+
+		.links {
+			position: relative;
+			display: flex;
+			gap: 44px;
+
+			a {
+				color: $nav-links;
+				font-size: 14px;
+				opacity: 69%;
+				transition: 0.3s linear;
+			}
+
+			a:hover {
+				transform: scale(1.1);
+				opacity: 100%;
+				border-bottom: 2px solid $nav-border;
+			}
+		}
+
+		#burger {
+			display: none;
+			transition: 0.3s linear;
+			scale: 1.2;
+		}
+
+		#burger:hover {
+			opacity: 100%;
+			scale: 1.8;
+			transform: rotate(90deg);
+		}
+	}
+}

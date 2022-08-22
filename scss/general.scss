@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	scroll-margin-top: 70px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: montserrat;
+	background: $bg-body;
+}
+
+.below-nav {
+	transform: translateY(72px);
+}
